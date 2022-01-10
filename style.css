@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Domine:wght@700&family=Inter&display=swap');
+
+body {
+    margin: 50px;
+    background-color: #163A24;
+}
+
+.bk {}
+
+.header {
+    height: 100px;
+    padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul li a.button {
+    background-color: #198C36;
+    padding: 10px 20px;
+    color: #FFF;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero {
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hero2 {
+    margin-top: 1000px;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-image {
+    flex: 1;
+    width: 1000px;
+    height: 70px;
+    margin-left: 600px;
+    margin-top: -400px;
+}
+
+.man-with-camera-and-ball {
+    width: 1000px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+.wrapper {}
+
+section.introduction {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 50px 0 50px;
+}
+
+.hero1 {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 50px 0 50px;
+
+}
